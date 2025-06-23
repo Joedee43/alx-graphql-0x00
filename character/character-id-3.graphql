@@ -1,0 +1,11 @@
+# This GraphQL query retrieves details of a character with a specific ID.
+query {
+  character(id: "3") {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}
